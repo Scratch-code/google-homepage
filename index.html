@@ -42,6 +42,26 @@ li a {
     border: 1px solid #e4e4e4;
 
 }
+.searchbar{
+    margin-top:25px;
+   margin-left:283px;
+   width:100%;
+}
+.bar{
+    border-radius:75%;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+  
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+}
+.bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+}
 </style>
 <header>
 <title id="header-title">
@@ -59,8 +79,18 @@ li a {
     <div class="image-alignment"> 
         <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
         </div>
-<br><br> <br> 
-Searchbox form placeholder
+<div class="container">
+  <div class="row">
+      <div class="col-md-12 col-xs-12">
+          <div class="searchbar">
+              <div class="form-group ">
+                  <input type="text" class="bar" style="width:588px; height:44px; outline:none;" class="form-control" >
+                   <a href="#"><i style="margin-left:559px; top:-30px; "class="glyphicon glyphicon-search"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 <ul class="bottom">
   <li><a href="About">Advertising</a></li>
   <li><a href="Store">Business</a></li>
