@@ -44,25 +44,22 @@ li a {
 }
 .searchbar{
     margin-top:25px;
-   margin-left:283px;
+   margin-left:0%;
    width:100%;
 }
 .bar{
-  border-radius:75%;
-  -webkit-box-shadow: 2px 3px 0px -2px #ccc;
-  box-shadow:2px 3px 0px -2px #ccc;
-  padding:10px;
-  border:0px;
-  outline: none;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #CCC;
-}
-.bar:hover{
-    -webkit-box-shadow: 3px 6px 7px -3px #ccc;
+  background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
     box-shadow:3px 6px 7px -3px #ccc
 }
+
 </style>
 <header>
 <title id="header-title">
@@ -74,6 +71,7 @@ li a {
     <li><a href="Store">Store</a></li>
     <li style="float:right"> <a href="Gmail">Images</a></li>
     <li style="float:right"> <a href="images">Gmail</a></li>
+   
   </ul>
 <div>
 <body class="center">
@@ -82,16 +80,18 @@ li a {
         </div>
 <div class="container">
   <div class="row">
-      <div class="col-md-12 col-xs-12">
+      <div>
           <div class="searchbar">
               <div class="form-group ">
-                  <input type="text" class="bar" style="width:588px; height:44px; outline:none;" class="form-control" >
+                  <input type="text" class="bar" style="width:488px; height:44px; outline:none;" class="form-control" >
                    <a href="#"><i style="margin-left:559px; top:-30px; "class="glyphicon glyphicon-search"></i></a>
               </div>
           </div>
       </div>
   </div>
 </div>
+<input  value="Google Search" aria-label="Google Search" name="btnK" type="submit">
+<input value="I'm Feeling Lucky " aria-label="I'm Feeling Lucky" name="btnK" type="submit">
 <ul class="bottom">
   <li><a href="About">Advertising</a></li>
   <li><a href="Store">Business</a></li>
